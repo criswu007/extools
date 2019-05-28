@@ -1,0 +1,3 @@
+/src/main/webapp/webapp/jzgl/wszz/ws_bajz.jsp
+/src/main/webapp/webapp/jzgl/wszz/ws_new.js
+/src/main/webapp/webapp/jzgl/wszz/ws_yajz.jsp
