@@ -15,6 +15,9 @@ public class ExportTool2
 
 	public static void copyFile(String source, String baseFromPath, String baseToPath)
 	{
+		if (!source.startsWith("/")) {
+			source = "/" + source;
+		}
 		String fromPath = source;
 		if (source.indexOf(baseFromPath) < 0) {
 			fromPath = baseFromPath + File.separator + source;
