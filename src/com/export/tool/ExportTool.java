@@ -228,7 +228,7 @@ public class ExportTool
 				String path0 = null;
 				while ((path0 = bufferedReader.readLine()) != null) {		//逐个文件复制
 					if (!"".equals(path0.trim())) {
-						copyFile(path0, readPath, writePath);
+						copyFile(path0.trim(), readPath, writePath);
 					}
 				}
 				read.close();

@@ -118,7 +118,7 @@ public class ExportTool2
 				BufferedReader bufferedReader = new BufferedReader(read);
 				String path0 = null;
 				while ((path0 = bufferedReader.readLine()) != null) {
-					if (!"".equals(path0.trim())) copyFile(path0, readPath, writePath);
+					if (!"".equals(path0.trim())) copyFile(path0.trim(), readPath, writePath);
 				}
 				read.close();
 				System.out.println("完成");
